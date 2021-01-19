@@ -1,0 +1,22 @@
+https://www.upwork.com/jobs/~01fc4bb9f966d92c13
+
+Extract the following from each URL:
+
+https://news.ycombinator.com/item?id=25632979
+https://news.ycombinator.com/item?id=25266287
+https://news.ycombinator.com/item?id=24969522
+https://news.ycombinator.com/item?id=24651637
+https://news.ycombinator.com/item?id=24342496
+
+
+Name
+Location:
+Remote:
+Willing to relocate:
+Technologies:-- Each Technology has to be in a separate column
+Résumé/CV link
+Email:
+Linkedin
+Summary
+About if available
+Source (Which URL)

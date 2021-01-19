@@ -1,0 +1,75 @@
+------------------ GET LOCATORS ------------------
+
+NAME = ''
+LOCATION = ''
+REMOTE = ''
+WILLING_TO_RELOCATE = ''
+TECHNOLOGIES = ''
+CV_LINK = ''
+EMAIL = ''
+LINKEDIN = ''
+SUMMARY = ''
+ABOUT_IF_AVAILABLE = ''
+SOURCE = ''
+
+
+-------------- GET CUSTOM SETTINGS ---------------
+
+'name',
+'location',
+'remote',
+'willing_to_relocate',
+'technologies',
+'cv_link',
+'email',
+'linkedin',
+'summary',
+'about_if_available',
+'source',
+
+
+--------------- GET PARSE ELEMENTS ---------------
+
+name = response.xpath(Locators.NAME).get()
+location = response.xpath(Locators.LOCATION).get()
+remote = response.xpath(Locators.REMOTE).get()
+willing_to_relocate = response.xpath(Locators.WILLING_TO_RELOCATE).get()
+technologies = response.xpath(Locators.TECHNOLOGIES).get()
+cv_link = response.xpath(Locators.CV_LINK).get()
+email = response.xpath(Locators.EMAIL).get()
+linkedin = response.xpath(Locators.LINKEDIN).get()
+summary = response.xpath(Locators.SUMMARY).get()
+about_if_available = response.xpath(Locators.ABOUT_IF_AVAILABLE).get()
+source = response.xpath(Locators.SOURCE).get()
+
+
+------------ GET PARSE ITEMS ELEMENTS ------------
+
+items['name'] = name
+items['location'] = location
+items['remote'] = remote
+items['willing_to_relocate'] = willing_to_relocate
+items['technologies'] = technologies
+items['cv_link'] = cv_link
+items['email'] = email
+items['linkedin'] = linkedin
+items['summary'] = summary
+items['about_if_available'] = about_if_available
+items['source'] = source
+
+
+------------------- GET ITEMS --------------------
+
+name = scrapy.Field()
+location = scrapy.Field()
+remote = scrapy.Field()
+willing_to_relocate = scrapy.Field()
+technologies = scrapy.Field()
+cv_link = scrapy.Field()
+email = scrapy.Field()
+linkedin = scrapy.Field()
+summary = scrapy.Field()
+about_if_available = scrapy.Field()
+source = scrapy.Field()
+
+
