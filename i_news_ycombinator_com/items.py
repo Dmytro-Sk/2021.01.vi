@@ -7,6 +7,14 @@ import scrapy
 
 
 class NewsYcombinatorComItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    name = scrapy.Field()
+    person_id = scrapy.Field()
+    location = scrapy.Field()
+    remote = scrapy.Field()
+    willing_to_relocate = scrapy.Field()
+    technologies = scrapy.Field()
+    cv_link = scrapy.Field()
+    email = scrapy.Field()
+    linkedin = scrapy.Field()
+    about = scrapy.Field()
+    source = scrapy.Field()
